@@ -28,6 +28,7 @@ namespace TestCSharp
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Değişiklik Yapıldı");
             try
             {
                 string newName = path + "\\" + textBox1.Text;
